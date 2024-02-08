@@ -1,4 +1,4 @@
-# Land-Use-Mix-in-Wonju-si
+# Land Use Mix in Wonju-si
 In this project, we will see how well land uses in Wonju-si, a city in South Korea, are mixed. Mixed land uses have many advantages including a decrease in demand for long-distance trips. Many methodologies have been developed to quantify the level of land use mix. One of them is the Entropy index. 
 
 ![image](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/5fc2c4e9-a025-4bd3-a873-8f739515c2e3)
@@ -35,7 +35,7 @@ Commercial/Industrial - 상업기타, 상업용, 고속도로휴게소, 여객�
 2. I removed data that don't contribute to positive effects of land us mix:
 공업나지, 도로등, 상업나지, 전창고, 답창고, 답축사, 전창고, 전축사, 주거나지, 주상나지, 태양광발전소부지, 주차장등, 위험시설, 유해.혐오시설, 토지임야, 특수기타.
 
-3. There were data with empty values. I compared the data with aerial maps and it turned out they were green spaces; I assigned them to the 'Recreation' category.
+3. There were data with empty values. I compared the data with aerial maps and found out that they were green spaces; I assigned them to the 'Recreation' category.
 
 4. Residential-commercial complexes(주상기타, 주상용) were duplicated, and each of the sets was assigned to 'Residential' and 'Commercial/Industrial' categories. 
 
@@ -44,11 +44,12 @@ Commercial/Industrial - 상업기타, 상업용, 고속도로휴게소, 여객�
 
 
 ## Calculating Entropy
-I implemented a geoprocessing model as this. First, I trimmed land characteristics spatial data with census tract. And then make them as the same units. And calcuate sums and the numbers of land uses in each tract. I calcuated entorpy and them transfer them into census tract layer and display the data.
 ![스크린샷 2024-02-07 181108](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/29dcca02-a1ab-4804-8e6c-8edecae04f31)
+I implemented a geoprocessing model like this to calculate the Entropy index for each census tract. You can find detailed information in the ModelBuilder file above.
 
 
-## Result
+
+## Results
 ![Layout](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/ae14b707-7330-403c-ac3e-77e57e840923)
 ![Layout1](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/96748f03-c660-45ef-9e5c-a6548e20b8eb)
 ![Layout2](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/260d8738-7006-4b5b-9709-1e5726263de1)
