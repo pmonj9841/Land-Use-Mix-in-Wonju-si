@@ -51,6 +51,7 @@ I implemented a geoprocessing model like this to calculate the Entropy index for
 
 ## Results
 ![Layout](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/ae14b707-7330-403c-ac3e-77e57e840923)
+![Dangye](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/73386b52-4b2e-4691-8021-2c444db3cb83)
 ![Layout1](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/96748f03-c660-45ef-9e5c-a6548e20b8eb)
 ![Layout2](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/260d8738-7006-4b5b-9709-1e5726263de1)
 ![Layout3](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/585fad97-d5fe-429c-aab2-d941fdda3b89)
