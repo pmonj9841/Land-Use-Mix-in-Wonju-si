@@ -1,9 +1,9 @@
 # Land-Use-Mix-in-Wonju-si
-This project deals with a question, 'how well land uses in Wonju-si are mixed?' Mixed land uses has many adavantages including reduction in demands for long-trips. Many methodologies have been developed to quantify the level of land use mix. One of them is Entropy index. 
+This project deals with a question, 'how well land uses in Wonju-si are mixed?' Mixed land uses has many adavantages including reduction in demands for long-trips. Many methodologies have been developed to quantify the level of land use mix. One of them is the Entropy index(Song et. al., 2013). 
 
 ![image](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/5fc2c4e9-a025-4bd3-a873-8f739515c2e3)
 
-where Pj is the percentage of each land use type j and k is the total number of land use types in the area (Voukenas, 2021). 
+Pj is the percentage of each land use type j and k is the total number of land use types in the area. 
 
 
 I developed this methodology to improve the results: 
@@ -49,7 +49,8 @@ I implemented a geoprocessing model as this. First, I trimmed land characteristi
 ![Layout3](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/585fad97-d5fe-429c-aab2-d941fdda3b89)
 
 
-## Literature
+## References
+Song, Y., Merlin, L., Rodriguez, D. (2013). Comparing measures of urban land use mix. *Computers, Environment and Urban Systems*. 42. 1–13. 10.1016/j.compenvurbsys.2013.08.001
+Voukenas, A. (2021, Aug 23). *Calculating land use mix with GIS*. https://www.geographyrealm.com/calculating-land-use-mix-with-gis/
+Manaugh, K., Kreider, T. (2013). What is mixed use? Presenting an interaction method for measuring land use mix. *The Journal of Transport and Land Use*, 6(1), 63-72. 10.5198/jtlu.v6i1.291
 
-https://www.geographyrealm.com/calculating-land-use-mix-with-gis/
-Song, Y., Martin, L. & Rodriguez, D., 2013. Comparing measures of urban land use mix. Computers, Environment and Urban Systems, Volume 42, pp. 1-13.
