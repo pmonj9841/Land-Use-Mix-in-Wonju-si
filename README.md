@@ -22,7 +22,6 @@ Two data are used in this project.
 
 ## Data Preparation
 ![image](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/ce111866-a878-426b-a6ac-201f72b956d5)
-
 This is the original dataset. The data have to be processed for our purpose.
 
 1. I categorized the land uses in the original data into three catagories:
