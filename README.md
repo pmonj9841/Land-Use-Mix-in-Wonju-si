@@ -22,13 +22,16 @@ Two data are used in this project.
 
 ## Data Preparation
 ![image](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/ce111866-a878-426b-a6ac-201f72b956d5)
+
 This is the original dataset. The data have to be processed for our purpose.
 
 1. I categorized the land uses in the original data into three catagories:
 Recreation - 공원등, 공원묘지, 과수원, 답, 답기타, 목장용지, 자연림, 전, 전기타, 조림, 하천등, 골프장 대중제, 골프장 회원제, 스키장, 운동장등, 유원지, 임야기타
 Residential - 다세대, 단독, 아파트, 연립, 주거기타, 콘도미니엄
 Commercial/Industrial - 상업기타, 상업용, 고속도로휴게소, 여객자동차터미널, 공업기타, 공업용, 업무용
+
 ![image](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/cc99b68a-1a7e-4840-bfd2-3414728f5f3a)
+
 
 2. I removed data that don't contribute to positive effects of land us mix:
 공업나지, 도로등, 상업나지, 전창고, 답창고, 답축사, 전창고, 전축사, 주거나지, 주상나지, 태양광발전소부지, 주차장등, 위험시설, 유해.혐오시설, 토지임야, 특수기타.
@@ -36,6 +39,7 @@ Commercial/Industrial - 상업기타, 상업용, 고속도로휴게소, 여객�
 3. There were data with empty values. I compared the data with aerial maps and it turned out they were green spaces; I assigned them to the 'Recreation' category.
 
 4. Residential-commercial complexes(주상기타, 주상용) were duplicated, and each of the sets was assigned to 'Residential' and 'Commercial/Industrial' categories. 
+
 ![image](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/7b5acc10-ae11-45db-ab3d-87a7f27f6b43)
 
 
