@@ -3,7 +3,7 @@ In this project, we will see how well land uses in Wonju-si, a city in South Kor
 
 ![image](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/5fc2c4e9-a025-4bd3-a873-8f739515c2e3)
 
-P^j is the percentage of each land use type j and k is the total number of land use types in the area (Voukenas, 2021). 
+P ^j is the percentage of each land use type j and k is the total number of land use types in the area (Voukenas, 2021). 
 
 
 I developed this methodology to improve the results: 
