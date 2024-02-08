@@ -3,13 +3,13 @@ In this project, we will see how well land uses in Wonju-si, a city in South Kor
 
 ![image](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/5fc2c4e9-a025-4bd3-a873-8f739515c2e3)
 
-P ^j is the percentage of each land use type j and k is the total number of land use types in the area (Voukenas, 2021). 
+Pj is the percentage of each land use type j and k is the total number of land use types in the area (Voukenas, 2021). 
 
 
-I developed this methodology to improve the results: 
-- First, I categorized land uses into three categories so that the collaborations of land uses that don't have synergy doesn't improve the results.
-- Second, I duplicated residential-commercial buildings and assigned one for residential type and one for commercial type. This is to take them into account in our model.
-- Third, I removed data that don't contribute to positive effects of land use mixes.
+I further developed this methodology to improve the results:
+- First, I categorized land uses into three categories so that the collaborations of land uses that don't have synergy effects don't lead to higher Entropy.
+- Second, I wanted to take residential-commercial complexes into account; so, I duplicated them and assigned one to the residential type and the other to the commercial type.
+- Third, I removed data that don't contribute to the positive effects of land use mixes.
 
 
 ## Data
