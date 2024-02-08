@@ -1,0 +1,10 @@
+GpMessages filter=lfs diff=lfs merge=lfs -text
+ImportLog filter=lfs diff=lfs merge=lfs -text
+Land_Use_Mix_Wonju.gdb filter=lfs diff=lfs merge=lfs -text
+Land_Use_Mix_Wonju_index filter=lfs diff=lfs merge=lfs -text
+Census_Tract((B100)국토통계_인구정보-총[[:space:]]인구[[:space:]]수(전체)-기초구역_강원특별자치도_202310) filter=lfs diff=lfs merge=lfs -text
+Land_Characteristics_Spatial_Data(토지특성공간정보) filter=lfs diff=lfs merge=lfs -text
+Land_Use_Mix_Wonju.aprx filter=lfs diff=lfs merge=lfs -text
+Land_Use_Mix_Wonju.atbx filter=lfs diff=lfs merge=lfs -text
+README.md filter=lfs diff=lfs merge=lfs -text
+LICENSE filter=lfs diff=lfs merge=lfs -text

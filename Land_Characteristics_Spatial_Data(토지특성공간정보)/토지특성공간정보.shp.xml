@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="ko"><Esri><CreaDate>20240202</CreaDate><CreaTime>16302300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\Toolboxes\Data Management Tools.tbx\Rename" Date="20240202" Time="163023">Rename "C:\Users\Victor\Desktop\개인 프로젝트\MyProject\토지특성공간정보\AL_D194_51130_20240127.shp" "C:\Users\Victor\Desktop\개인 프로젝트\MyProject\토지특성공간정보\토지특성공간정보.shp" ShapeFile</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20240204" Time="210841">CalculateField 토지특성공간정보 A18 empty(!A18!) Python "def empty(x):
+    if x.strip() == '':
+        return 'Recreation'
+    else:
+        return x" Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20240204" Time="222552">CalculateField 토지특성공간정보 A18 rec(!A18!) Python "rec_list = ['공원등', '공원묘지', '과수원', '답', '답기타', '목장용지', '자연림', '전', '전기타', '조림', '하천등', '골프장 대중제', '골프장 회원제', '스키장', '운동장등', '유원지', '임야기타']
+
+def rec(x):
+    for a in rec_list:
+        if x == a:
+            return 'Recreation'
+        else:
+            return x" Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20240204" Time="223100">CalculateField 토지특성공간정보 A18 rec(!A18!) Python "rec_list = ['공원등', '공원묘지', '과수원', '답', '답기타', '목장용지', '자연림', '전', '전기타', '조림', '하천등', '골프장 대중제', '골프장 회원제', '스키장', '운동장등', '유원지', '임야기타']
+
+def rec(x):
+    for a in rec_list:
+        if x == a:
+            return 'Recreation'
+        else:
+            return x" Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20240204" Time="223527">CalculateField 토지특성공간정보 A18 rec(!A18!) Python "
+def rec(x):
+    rec_list = ['공원등', '공원묘지', '과수원', '답', '답기타', '목장용지', '자연림', '전', '전기타', '조림', '하천등', '골프장 대중제', '골프장 회원제', '스키장', '운동장등', '유원지', '임야기타']
+    for a in rec_list:
+        if x == a:
+            return 'Recreation'
+        else:
+            return x" Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20240204" Time="223641">CalculateField 토지특성공간정보 A18 rec(!A18!) Python "
+def rec(x):
+    rec_list = ['공원등', '공원묘지', '과수원', '답', '답기타', '목장용지', '자연림', '전', '전기타', '조림', '하천등', '골프장 대중제', '골프장 회원제', '스키장', '운동장등', '유원지', '임야기타']
+    for a in rec_list:
+        if x == a:
+            return 'Recreation'
+        else:
+            return x" Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20240204" Time="224643">CalculateField 토지특성공간정보 A18 rec(!A18!) Python "
+def rec(x):
+    rec_list = ['공원등', '공원묘지', '과수원', '답', '답기타', '목장용지', '자연림', '전', '전기타', '조림', '하천등', '골프장 대중제', '골프장 회원제', '스키장', '운동장등', '유원지', '임야기타']
+   
+    for a in rec_list:
+        if x == a:
+            return 'Recreation'
+    
+    return x" Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20240204" Time="224809">CalculateField 토지특성공간정보 A18 rec(!A18!) Python "
+def rec(x):
+    rec_list = ['공원등', '공원묘지', '과수원', '답', '답기타', '목장용지', '자연림', '전', '전기타', '조림', '하천등', '골프장 대중제', '골프장 회원제', '스키장', '운동장등', '유원지', '임야기타']
+   
+    for a in rec_list:
+        if x == a:
+            return 'Recreation'
+    
+    return x" Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20240204" Time="225146">CalculateField 토지특성공간정보 A18 res(!A18!) Python "
+def res(x):
+    res_list = ['다세대', '단독', '아파트', '연립', '주거기타', '콘도미니엄']
+   
+    for a in res_list:
+        if x == a:
+            return 'Residential'
+    
+    return x" Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20240204" Time="225307">CalculateField 토지특성공간정보 A18 res(!A18!) Python "
+def res(x):
+    res_list = ['다세대', '단독', '아파트', '연립', '주거기타', '콘도미니엄']
+   
+    for a in res_list:
+        if x == a:
+            return 'Residential'
+    
+    return x" Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20240204" Time="225528">CalculateField 토지특성공간정보 A18 ci(!A18!) Python "
+def ci(x):
+    ci_list = ['상업기타', '상업용', '고속도로휴게소', '여객자동차터미널', '공업기타', '공업용', '업무용']
+   
+    for a in ci_list:
+        if x == a:
+            return 'Commercial/Industrial'
+    
+    return x" Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20240204" Time="231341">CalculateField 토지특성공간정보 A18 mix_c(!A18!) Python "def mix_c(x):
+    if x.strip() == '':
+        return 'Commercial/Industiral'
+    else:
+        return x" Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20240204" Time="231657">CalculateField 토지특성공간정보 A18 mix_r(!A18!) Python "def mix_r(x):
+    if x == '주상용' or x == '주상기타':
+        return 'Residential'
+    else:
+        return x" Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20240204" Time="232322">CalculateField 토지특성공간정보 A18 mix_r(!A18!) Python "def mix_r(x):
+    if x == 'Commercial/Industiral':
+        return 'Commercial/Industrial'
+    else:
+        return x" Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\DeleteField" Date="20240205" Time="004314">DeleteField 토지특성공간정보 A0;A1;A2;A3;A4;A5;A6;A7;A8;A9;A10;A11;A12;A13;A14;A15;A16;A17;A19;A20;A21;A22;A23;A24;A25;A26 "Delete Fields"</Process></lineage></DataProperties></Esri></metadata>
