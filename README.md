@@ -52,9 +52,24 @@ I implemented a geoprocessing model like this to calculate the Entropy index for
 ## Results
 ![Layout](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/ae14b707-7330-403c-ac3e-77e57e840923)
 ![Dangye](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/73386b52-4b2e-4691-8021-2c444db3cb83)
-![Layout1](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/96748f03-c660-45ef-9e5c-a6548e20b8eb)
+Areas with residential-commercial complexes have high entropy. It shows that this developed methodology works well for taking multi-purpose buildings into account.
+
+
 ![Layout2](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/260d8738-7006-4b5b-9709-1e5726263de1)
+This image shows the limitations of this project. Residential areas on the outer circle, which are apartment blocks, have their own commercial buildings; however, they are not specified in the original dataset. Furthermore, parts of the residential areas in the inner circle are schools; but, they are simply classified as residential areas. These undermined their land use mix levels.
+
+
 ![Layout3](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/585fad97-d5fe-429c-aab2-d941fdda3b89)
+This is an old city market area. The areas in the middle have low entropy. It would contribute to a better land use mix if the area could be developed with residential uses when they ever have to be redeveloped.
+
+
+
+## Limitations
+This project has several limitations. Some of them are due to the data, and some of them are due to the methodology itself.
+1. Bus terminals and train stations are not considered in this project although they contribute to positive effects when they are with other uses. The results will be better if the work to include these in the data is done.
+2. Different uses are categorized into one category in the original dataset. For example, schools, religious facilities, and parking lots are included in residential categories. It will improve the results if they can be separated and more detailed categories are developed.
+3. This methodology doesn't capture the distances between different uses. Different Land uses at close distances would have more synergy than the land uses in the distance.
+
 
 
 ## References
