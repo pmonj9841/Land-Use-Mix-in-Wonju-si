@@ -43,7 +43,13 @@ I implemented a geoprocessing model as this. First, I trimmed land characteristi
 
 
 ## Result
+![Layout](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/ae14b707-7330-403c-ac3e-77e57e840923)
+![Layout1](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/96748f03-c660-45ef-9e5c-a6548e20b8eb)
+![Layout2](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/260d8738-7006-4b5b-9709-1e5726263de1)
+![Layout3](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/585fad97-d5fe-429c-aab2-d941fdda3b89)
 
+
+## Literature
 
 https://www.geographyrealm.com/calculating-land-use-mix-with-gis/
 Song, Y., Martin, L. & Rodriguez, D., 2013. Comparing measures of urban land use mix. Computers, Environment and Urban Systems, Volume 42, pp. 1-13.
