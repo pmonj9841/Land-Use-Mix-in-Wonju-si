@@ -77,4 +77,5 @@ Voukenas, A. (2021, Aug 23). *Calculating land use mix with GIS*. https://www.ge
 
 Manaugh, K., Kreider, T. (2013). What is mixed use? Presenting an interaction method for measuring land use mix. *The Journal of Transport and Land Use*, 6(1), 63-72. 10.5198/jtlu.v6i1.291
 
-국토교통부, 토지특성공간정보, 강원특별자치도 원주시, 2024-01-27
+국토교통부 (2024). 강원특별자치도 원주시 토지특성공간정보 2024-01-27 [Kangwon-do Wonju-si Land use spatial data 2024-01-27]. https://www.vworld.kr/dtna/dtna_fileDataView_s001.do
+
