@@ -14,12 +14,11 @@ I developed this methodology to improve the results:
 
 ## Data
 Two data are used in this project. 
-1. 국토교통부, 토지특성공간정보, 강원특별자치도 원주시, 2024-01-27
+1. Land Characteristics spatial data 국토교통부, 토지특성공간정보, 강원특별자치도 원주시, 2024-01-27
 2. Census tracts from Korean census data
 
 
-## Process
-#### Data Preparation
+## Data Preparation
 ![image](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/ce111866-a878-426b-a6ac-201f72b956d5)
 This is the original dataset. 
 
@@ -38,7 +37,9 @@ There're empty values. I compared those data with airel view map and found out t
 
 
 
-#### 
+## Calculating Entropy
+I implemented a geoprocessing model as this. First, I trimmed land characteristics spatial data with census tract. And then make them as the same units. And calcuate sums and the numbers of land uses in each tract. I calcuated entorpy and them transfer them into census tract layer and display the data.
+![스크린샷 2024-02-07 181108](https://github.com/pmonj9841/Land-Use-Mix-in-Wonju-si/assets/61530808/29dcca02-a1ab-4804-8e6c-8edecae04f31)
 
 
 ## Result
